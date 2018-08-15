@@ -2,4 +2,4 @@ discord
 asyncio
 requests
 BeautifulSoup4
-json
+simplejson
