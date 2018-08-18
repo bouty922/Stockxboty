@@ -3,3 +3,4 @@ asyncio
 requests
 BeautifulSoup4
 simplejson
+os
