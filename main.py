@@ -97,4 +97,4 @@ async def on_message(message):
         await client.send_message(message.channel, embed=embed)
 
 if __name__ == '__main__':
-    client.run(process.env.discord_token)
+    client.run(process.env.discord_token);
