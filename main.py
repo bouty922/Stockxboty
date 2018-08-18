@@ -6,8 +6,9 @@ from bs4 import BeautifulSoup
 
 
 with open('config.json') as json_file:
-    config = json.load(json_file)
-
+      config = json.load(json_file)
+    
+discord_token = config['discord_token']
 api_url = config['api_url']
 base_url = config['base_url']
 
